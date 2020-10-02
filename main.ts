@@ -21,6 +21,6 @@ const app = new Application();
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-console.log("server stated 8000")
+console.log("server started 8000")
 
 app.listen("0.0.0.0:8000");
